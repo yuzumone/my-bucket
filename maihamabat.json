@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/yuzumone/maihamabat",
+    "description": "Batch operation for maihama.",
+    "license": "https://github.com/yuzumone/maihamabat/blob/master/LICENSE",
+    "version": "0.0.3",
+    "url": "https://github.com/yuzumone/maihamabat/releases/download/v0.0.3/maihamabat-0.0.3.windows-amd64.tar.gz",
+    "hash": "55507ca450b31f9c390c43140436ddb4ec0d47aa7fb3902b31d58ae32ee9b4e5",
+    "checkver": {
+        "github": "https://github.com/yuzumone/maihamaba"
+    },
+    "autoupdate": {
+        "url": "https://github.com/yuzumone/maihamabat/releases/download/v$version/maihamabat-$version.windows-amd64.tar.gz"
+    },
+    "bin": [
+        "maihamabat.exe"
+    ]
+}
