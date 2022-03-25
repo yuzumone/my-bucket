@@ -2,16 +2,17 @@
     "homepage": "https://koruri.github.io/",
     "description": "Japanese TrueType font obtained by mixing M+ FONTS and Open Sans.",
     "license": "https://github.com/Koruri/Koruri/blob/master/LICENSE",
-    "version": "20180915",
-    "url": "https://github.com/Koruri/Koruri/releases/download/Koruri-20180915/Koruri-20180915.zip",
-    "hash": "b8174e363af91cffa1e48cf18d9802d4bd7b066ad2533bee81e1dd9b3e48158f",
+    "version": "20210720",
+    "url": "https://github.com/Koruri/Koruri/releases/download/20210720/Koruri-20210720.7z",
+    "hash": "82ee0c64f922f01d95e1a6d08d5bf5bee156f20f1deb3237dbba1006da0c8922",
     "checkver": {
         "github": "https://github.com/Koruri/Koruri"
     },
+    "extract_dir": "Koruri_20210720",
     "autoupdate": {
-        "url": "https://github.com/Koruri/Koruri/releases/download/Koruri-$version/Koruri-$version.zip"
+        "url": "https://github.com/Koruri/Koruri/releases/download/$version/Koruri-$version.7z",
+        "extract_dir": "Koruri_$version"
     },
-    "extract_dir": "Koruri-20180915",
     "installer": {
         "script": [
             "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
